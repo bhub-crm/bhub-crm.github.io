@@ -1,0 +1,44 @@
+/* SECTION 1 */
+.section-1 .row {
+    display: flex;
+    align-items: center;
+}
+.section-1 img {
+    max-width: 560px;
+}
+.section-1 h1 {
+    margin-bottom: 30px;
+    line-height: 110%;
+}
+.section-1 h6{
+    line-height: 145%;
+}
+.section-1 .txt {
+    padding-right: 80px;
+}
+
+/* SECTION 2 */
+.section-2 .row{
+    display: flex;
+    justify-content: space-between;
+}
+.section-2 .row > div{
+    width: 32.2%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+    border-radius: 10px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+.section-2 .title img{
+    max-width: 40px;
+    margin-right: 12px;
+}
+.section-2 .title {
+    display: flex;
+    align-items: center;
+}
+.section-2 h4{
+    font-size: 20px;
+    color: #2C4499;
+}
