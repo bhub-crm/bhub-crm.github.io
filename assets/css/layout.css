@@ -36,6 +36,9 @@ h1 {
     font-weight: 700;
     color: #2B459C;
 }
+h3 {
+    font-size: 40px;
+}
 h4 {
     font-size: 22px;
     font-weight: 700;
@@ -68,4 +71,12 @@ nav ul li:last-child{
 .btn-01 {
     font-weight: 700;
     color: #2C4499;
+}
+.btn-02 {
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid #1FBF7A;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 40px;
 }
