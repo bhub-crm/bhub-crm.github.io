@@ -1,6 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     color: #7B7B7B;
+    box-sizing: border-box;
 }
 body {
     margin: 0;
@@ -11,9 +12,12 @@ body {
     max-width: 150px;
 }
 .row {
-    max-width: 1400px;
-    width: 80%;
+    max-width: 1250px;
+    width: 85%;
     margin: 0 auto;
+}
+img {
+    width: 100%;
 }
 a, a:hover {
     text-decoration: none;
@@ -31,6 +35,10 @@ h1 {
     font-size: 55px;
     font-weight: 700;
     color: #2B459C;
+}
+h4 {
+    font-size: 22px;
+    font-weight: 700;
 }
 h6 {
     font-size: 18px;

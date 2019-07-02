@@ -1,44 +1,87 @@
 /* SECTION 1 */
-.section-1 .row {
+.introduction-banner .row {
     display: flex;
     align-items: center;
 }
-.section-1 img {
-    max-width: 560px;
+.introduction-banner .row > div {
+    width: 50%;
 }
-.section-1 h1 {
+.introduction-banner img {
+    max-width: 600px;
+    width: 100%;
+}
+.introduction-banner h1 {
     margin-bottom: 30px;
     line-height: 110%;
 }
-.section-1 h6{
+.introduction-banner h6{
     line-height: 145%;
 }
-.section-1 .txt {
+.introduction-banner .txt {
     padding-right: 80px;
 }
 
 /* SECTION 2 */
-.section-2 .row{
+.intro-features .row{
     display: flex;
     justify-content: space-between;
 }
-.section-2 .row > div{
+.intro-features .row > div{
     width: 32.2%;
     background: #FFFFFF;
     box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
     border-radius: 10px;
     padding: 35px;
-    box-sizing: border-box;
 }
-.section-2 .title img{
+.intro-features .title img{
     max-width: 40px;
     margin-right: 12px;
 }
-.section-2 .title {
+.intro-features .title {
     display: flex;
     align-items: center;
 }
-.section-2 h4{
-    font-size: 20px;
+.intro-features h4{
     color: #2C4499;
 }
+
+/* SECTION-3 */
+.intro-user-stories {
+    padding: 50px 0;
+}
+.intro-user-stories .stories{
+    display: flex;
+    align-items: center;
+}
+.intro-user-stories .stories > div {
+    width: 50%;
+}
+.intro-user-stories h3 {
+    font-size: 40px;
+    color: #1FBF7A;
+}
+.intro-user-stories .txt {
+    padding-left: 40px;
+}
+.story-2 div:first-child {
+    order: 2;
+}
+
+/* SECTION-4 */
+.testimonials {
+    text-align: center;
+    padding: 50px 0;
+}
+.testimonials h4 {
+    color: #29429E;
+    margin-bottom: 40px;
+}
+.testimonials img{
+    max-width: 835px;
+}
+span.name {
+    font-weight: 700;
+    display: block;
+    color: #29429E;
+}
+.testimonials-carousel
