@@ -1,0 +1,142 @@
+.acquire-header {
+	position: relative;
+	background-image: url("/assets/img/features/featuresHeader.png");
+	width: 100%;
+	height: 500px;
+}
+
+.grow-header {
+	position: relative;
+	background-image: url("/assets/img/features/featuresHeader.png");
+	width: 100%;
+	height: 500px;
+}
+.retain-header {
+	position: relative;
+	background-image: url("/assets/img/features/featuresHeader.png");
+	width: 100%;
+	height: 500px;
+}
+
+
+.value-feature-intro {
+	position: absolute;
+	top: 70%;
+	right: 10%;
+	padding: 15px;
+	width: 32.2%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+	border-radius: 10px;
+	padding: 35px;
+	box-sizing: border-box; 
+}
+.value-feature-intro h2 {
+  color: #2C4499;
+}
+.feature-header {
+	display: flex;
+	align-items: center;
+
+}
+.feature-icon {
+	width: 40px;
+	margin-right: 12px;
+}
+.features {
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.feature-row {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 80%;
+	align-self: center;
+
+}
+.feature-row img{
+  width: 40%;
+}
+.text-container {
+	width:40%;
+	margin-left: 30px;
+	margin-top: -40px;
+}
+.text-container img {
+	margin-bottom: 10px;
+	width: 12%;
+}
+.text-container h4{
+	color: #2C4499;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+.text-container p {
+	color: #2C4499;
+	font-size: 10;
+	/* font-weight: light; */
+}
+.other-feature-section {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 150px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.other-feature-header {
+	position: absolute;
+	top: -100px;
+	font-size: 8rem;
+	z-index: -1;
+}
+
+.other-feature-header h5{
+	color: rgba(44,68,153,.09);
+
+}
+
+.feature-preview-card {
+	width: 45%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+	border-radius: 10px;
+	padding: 35px;
+	box-sizing: border-box; 
+}
+.feature-preview-card-header {
+	display: flex;
+	align-items: center;
+}
+.feature-preview-card-header img {
+	width: 10%;
+	margin-right: 10px;
+}
+
+.feature-preview-card-header h5 {
+	color: #2C4499;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+
+.discover-more p{
+	color:  #2C4499;
+	font-size: 0.5 rem;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.discover-more div {
+	margin-top:0;
+	height: 5px;
+	background-color: #00C275;
+	width: 15%;
+}
