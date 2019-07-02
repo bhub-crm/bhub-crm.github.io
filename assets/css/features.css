@@ -9,3 +9,14 @@
     font-weight: bold;
     padding: 100px 0
 }
+.feature-detail-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.feature-detail-section{
+    margin-top: 50px;
+}
+.feature-title {
+    color: #1FBF7A;
+}
