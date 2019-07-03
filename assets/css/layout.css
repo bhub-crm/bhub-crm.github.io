@@ -15,6 +15,7 @@ body {
     max-width: 1250px;
     width: 85%;
     margin: 0 auto;
+    position: relative;
 }
 img {
     width: 100%;
@@ -66,11 +67,53 @@ nav ul li a{
 nav ul li:last-child{
     padding-right: 0;
 }
+.submenu {
+    flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    background: #fff;
+    padding: 10px 40px 10px 10px;
+    box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+}
+.submenu li a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.submenu .nav-icon {
+    background-color: rgba(0, 194, 117, 0.1);
+    height: 42px;
+    width: 42px;
+    background-size: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 15px;
+}
 
 /* BUTTONS */
 .btn-01 {
     font-weight: 700;
     color: #2C4499;
+    display: inline-block;
+    position: relative;
+}
+.btn-01::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 70%;
+    height: 5px;
+    background-color: #00C275;
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -ms-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+.btn-01:hover::before {
+    width: 100%;
 }
 .btn-02 {
     background: rgba(255, 255, 255, 0.08);
@@ -79,4 +122,16 @@ nav ul li:last-child{
     color: #fff;
     font-weight: 700;
     padding: 12px 40px;
+    display: inline-block;
+
+}
+.btn-03 {
+    background: #1FBF7A;
+    border: 2px solid #1FBF7A;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 40px;
+    display: inline-block;
+
 }
