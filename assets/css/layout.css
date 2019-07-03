@@ -52,33 +52,63 @@ p {
     line-height: 140%;
 }
 /* MENU */
+.menu {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 10;
+}
 .menu .row{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 0;
+    -webkit-transition: 0.25s ease-out;
+    -moz-transition: 0.25s ease-out;
+    -ms-transition: 0.25s ease-out;
+    -o-transition: 0.25s ease-out;
+    transition: 0.25s ease-out;
 }
 nav ul {
     display: flex;
 }
 nav ul li a{
-    padding-right: 30px;
+    padding: 15px 40px 15px 0;
 }
 nav ul li:last-child{
     padding-right: 0;
 }
 .submenu {
+    display: none;
     flex-direction: column;
     position: absolute;
     z-index: 5;
     background: #fff;
-    padding: 10px 40px 10px 10px;
+    padding: 10px;
     box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 330px;
 }
 .submenu li a{
     display: flex;
     align-items: center;
     padding: 10px;
+    border-bottom: 1px solid #efefef;
+    background-color: #fff;
+}
+.submenu li a:hover {
+    background-color: rgba(0, 194, 117, 0.1);
+}
+.submenu li:last-child  a{
+    border-bottom: 0px;
+}
+nav li:hover ul.submenu{
+    display: block;
+}
+.submenu p {
+    margin: 8px;
+    width: calc(100% - 70px);
 }
 .submenu .nav-icon {
     background-color: rgba(0, 194, 117, 0.1);
@@ -89,6 +119,19 @@ nav ul li:last-child{
     background-repeat: no-repeat;
     border-radius: 50%;
     margin-right: 15px;
+}
+.submenu span {
+    font-size: 0.8rem;
+    line-height: 145%;
+    display: inline-block;
+    opacity: 0.7;
+}
+.menu .scroll-menu{
+    padding: 20px 0;
+}
+
+.container {
+    padding-top: 109px;
 }
 
 /* BUTTONS */
