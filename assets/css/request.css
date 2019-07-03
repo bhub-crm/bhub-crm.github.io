@@ -1,0 +1,42 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+  width: 80%;
+  margin: 70px auto;
+}
+
+.img-container {
+  width: 40%;
+}
+
+.form-container {
+  margin-top: 50px;
+}
+
+.text-container h2{
+  color: #2B459C;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* css for reuest redirect thk you page */
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 50px auto;
+  align-items: center
+}
+
+.content-container h1 {
+  font-size: 3rem;
+}
+.content-container img {
+  width: 40%;
+  margin-left: 10%;
+}
+.content-container div {
+  width: 30%;
+}
