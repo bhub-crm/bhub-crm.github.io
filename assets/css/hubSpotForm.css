@@ -1,3 +1,13 @@
 .hubSpotForm {
   margin-top: 60px;
+  position: relative;
+}
+
+.white-container {
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  width: 500px;
+  height:70px;
+  bottom: 0px;
 }
