@@ -10,6 +10,11 @@ body {
 }
 .nav-logo {
     max-width: 150px;
+    -webkit-transition: 0.25s ease-out;
+    -moz-transition: 0.25s ease-out;
+    -ms-transition: 0.25s ease-out;
+    -o-transition: 0.25s ease-out;
+    transition: 0.25s ease-out;
 }
 .row {
     max-width: 1250px;
@@ -127,9 +132,11 @@ nav li:hover ul.submenu{
     opacity: 0.7;
 }
 .menu .scroll-menu{
-    padding: 20px 0;
+    padding: 15px 0;
 }
-
+.scroll-menu .nav-logo {
+    max-width: 135px;
+}
 .container {
     padding-top: 109px;
 }
