@@ -57,11 +57,6 @@
   align-items: center;
   margin-top: 150px;
 }
-/* 
-.story-intro img{
-  width: 35vw; 
-
-} */
 
 .story-intro {
   position: relative;
@@ -90,25 +85,23 @@
   width: 25vw;
 }
 
-
-
 .speech-bubble {
   position: relative;
   background: #FFFFFF;
 	box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
 	border-radius: 10px;
-	padding: 35px;
+	padding: 2vw;
   box-sizing: border-box;
   display:flex;
   align-items: flex-start;
-  width: 40%;
+  width: 30vw;
 }
 .speech-bubble p {
   color: #2C4499;
-  font-size:1vw;
+  font-size:1.2vw;
 }
 .speech-bubble img {
-  margin-right: 30px;
+  margin-right: 1.5vw;
   width: 5vw
 }
 
@@ -173,8 +166,8 @@
 }
 
 
-.right {
-  /* padding-right: 20px; */
+.left {
+  padding-left: 3vw;
 }
 
 .story-container2 div{

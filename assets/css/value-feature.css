@@ -32,7 +32,7 @@
 }
 .value-feature-intro h2 {
 	color: #2C4499;
-	font-size: 3vw;
+	font-size: 2.4vw;
 }
 .feature-header {
 	display: flex;
@@ -73,7 +73,7 @@
 .text-container h4{
 	color: #2C4499;
 	font-weight: 700;
-	font-size: 2.5vw;
+	font-size: 1.8vw;
 }
 .text-container p {
 	color: #2C4499;
@@ -122,7 +122,7 @@
 
 .feature-preview-card-header h5 {
 	color: #2C4499;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	font-weight: 700;
 }
 
