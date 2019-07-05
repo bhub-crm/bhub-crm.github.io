@@ -1,5 +1,5 @@
 .story-container {
-  width: 70%;
+  width: 80%;
   margin: 0px auto;
   position: relative;
 }
@@ -50,7 +50,7 @@
   background-color:rgba(44,68,153,.06);
 }
 
-.story-point-container {
+.story-point-container, .story2-point-container {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .intro-img {
@@ -83,6 +83,11 @@
 
 .story-point-container img {
   width: 25vw;
+}
+
+.story2-point-container img {
+  width: 35vw;
+
 }
 
 .speech-bubble {
@@ -167,18 +172,8 @@
   z-index: -1;
 }
 
-
 .left {
   padding-left: 3vw;
-}
-
-.story-container2{
-  margin-top: 0;
-
-}
-
-.story-container3 {
-  margin-top: 150px;
 }
 
 .circle1 {
@@ -200,5 +195,8 @@ top: 0vw;
 
 .circle5{
   top: 1vw;
+}
 
+.story2-container2 {
+  margin-top: -10vw;
 }
