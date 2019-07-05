@@ -142,7 +142,7 @@ span.name {
     background: #29429E;
     box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
     border-radius: 10px;
-    padding: 60px 60px 80px;
+    padding: 60px 60px 60px;
     position: relative;
 }
 .demo-background .txt {
@@ -156,7 +156,7 @@ span.name {
 .demo-background p {
     color: #fff;
     opacity: 0.6;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .demo-background img {
     max-width: 790px;
@@ -204,6 +204,9 @@ span.name {
   .intro-features {
     margin-bottom: 20px;
   }
+  .story-2 div:first-child {
+    justify-content: center;
+  }
   /* USER STORIES */
   .intro-user-stories .txt {
     padding: 0 40px;
@@ -225,6 +228,7 @@ span.name {
   .demo-background p {
     max-width: 400px;
     margin: 20px auto 20px;
+    padding: 0 20px;
   }
 }
 @media(max-width:768px){

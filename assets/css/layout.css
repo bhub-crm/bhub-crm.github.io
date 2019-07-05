@@ -247,6 +247,9 @@ nav li:hover ul.submenu{
   h3 {
     font-size: 30px;
   }
+  .submenu {
+    margin-top: 0;
+  }
 }
 @media(max-width:992px){
   .row {
