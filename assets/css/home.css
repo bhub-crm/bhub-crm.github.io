@@ -204,10 +204,8 @@ span.name {
   .intro-features {
     margin-bottom: 20px;
   }
-  .story-2 div{
-    justify-content: center;
-    display: inherit;
-    align-self: start; 
+  .story-2 img {
+    align-self: center;
   }
   /* USER STORIES */
   .intro-user-stories .txt {
