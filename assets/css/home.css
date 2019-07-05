@@ -206,6 +206,7 @@ span.name {
   }
   .story-2 div:first-child {
     justify-content: center;
+    display: inherit;
   }
   /* USER STORIES */
   .intro-user-stories .txt {
