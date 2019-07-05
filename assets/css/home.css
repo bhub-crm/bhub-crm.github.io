@@ -207,7 +207,7 @@ span.name {
   .story-2 div{
     justify-content: center;
     display: inherit;
-    flex: 1;
+    align-self: start; 
   }
   /* USER STORIES */
   .intro-user-stories .txt {
