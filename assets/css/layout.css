@@ -244,6 +244,9 @@ nav li:hover ul.submenu{
     padding: 15px 20px 15px 0;
     display: flex;
   }
+  h3 {
+    font-size: 30px;
+  }
 }
 @media(max-width:992px){
   .row {
