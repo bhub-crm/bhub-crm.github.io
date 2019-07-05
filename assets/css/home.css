@@ -204,9 +204,10 @@ span.name {
   .intro-features {
     margin-bottom: 20px;
   }
-  .story-2 div:first-child {
+  .story-2 div{
     justify-content: center;
     display: inherit;
+    flex: 1;
   }
   /* USER STORIES */
   .intro-user-stories .txt {
