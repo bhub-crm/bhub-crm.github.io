@@ -1,7 +1,7 @@
 .contact-container {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-around;
   width: 80%;
   margin: 70px auto;
@@ -9,10 +9,11 @@
 
 .img-container {
   width: 40%;
+  margin-left: 100px;
 }
 
 .form-container {
-  margin-top: 50px;
+  margin-left: 90px;
 }
 
 .text-container h2{
@@ -21,23 +22,20 @@
   font-size: 3rem;
 }
 
-/* css for reuest redirect thk you page */
-.content-container {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  margin: 50px auto;
-  align-items: center
+.text-container p {
+  width: 60%;
 }
 
-.content-container h1 {
-  font-size: 3rem;
-}
-.content-container img {
-  width: 40%;
-  margin-left: 10%;
-}
-.content-container div {
-  width: 30%;
+.hubSpotForm {
+  margin-top: 60px;
+  position: relative;
 }
 
+.white-container {
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  width: 500px;
+  height:70px;
+  bottom: 0px;
+}
