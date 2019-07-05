@@ -258,8 +258,11 @@ nav li:hover ul.submenu{
   .burger {
     display: block;
   }
+  .nav-logo {
+    max-width: 120px;
+  }
   nav {
-    top: 79px;
+    top: 70px;
     left: -100%;
     position: fixed;
     width: 100%;

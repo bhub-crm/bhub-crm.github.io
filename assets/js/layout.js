@@ -7,8 +7,8 @@ $(document).ready(function() {
 
     if ($(window).width() < 992) {
       // BELOW TO 992px
-      $( "nav > ul > li > a" ).click(function(e) {
-        e.preventDefault();
+      $( "nav > ul > li > a" ).click(function() {
+        //e.preventDefault();
         $(this).next($('.submenu')).toggleClass('submenu-open');
       });
 
