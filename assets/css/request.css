@@ -16,10 +16,14 @@
   margin-left: 90px;
 }
 
-.text-container h2{
-  color: #2B459C;
-  font-weight: bold;
-  font-size: 3rem;
+.text-container h1{
+  font-size: 3.5vw;
+  
+}
+
+.text-container p{
+  color: #7B7B7B;
+  font-size: 1vw;
 }
 
 .text-container p {
@@ -29,6 +33,11 @@
 .hubSpotForm {
   margin-top: 60px;
   position: relative;
+  background: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+	border-radius: 10px;
+	padding:  35px 35px 0px 35px;
+  box-sizing: border-box;
 }
 
 .white-container {
