@@ -317,7 +317,15 @@ nav li:hover ul.submenu{
 
 }
 @media(max-width:576px){
-
+  .submenu {
+    padding: 0;
+  }
+  .submenu .nav-icon {
+    display: none;
+  }
+  .submenu span {
+    line-height: 130%;
+  }
 }
 @media(max-width:380px){
 
