@@ -6,9 +6,9 @@
 }
 .about-section h1 {
   position: absolute;
-  top: 20px;
-  right: 80px;
-	font-size: 10rem;
+  top: 1vw;
+  right: 1vw;
+	font-size: 10vw;
   z-index: -1;
   color: rgba(44,68,153,.09);
 
