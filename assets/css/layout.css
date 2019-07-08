@@ -303,7 +303,7 @@ nav li:hover ul.submenu{
 
   }
   nav li:hover ul.submenu {
-    /* display: none; */
+    display: none;
   }
   .submenu-open {
     display: block!important;

@@ -301,6 +301,7 @@ span.name {
   }
   .introduction-banner h1 {
     font-size: 30px;
+    margin: 50px 0 40px;
   }
 }
 @media(max-width:380px){
