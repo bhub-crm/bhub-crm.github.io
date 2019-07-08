@@ -85,6 +85,9 @@
 
 }
 @media(max-width:576px){
+  .footer-container {
+    margin-top:50px;
+  }
 
 }
 @media(max-width:380px){
