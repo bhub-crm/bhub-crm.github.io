@@ -164,7 +164,7 @@ nav li:hover ul.submenu{
   position: absolute;
   left: 0;
   bottom: -8px;
-  width: 70%;
+  width: 60%;
   height: 5px;
   background-color: #00C275;
   -webkit-transition: 0.15s ease-out;
