@@ -299,6 +299,9 @@ span.name {
   .demo-background {
     padding: 40px 0 0;
   }
+  .introduction-banner h1 {
+    font-size: 30px;
+  }
 }
 @media(max-width:380px){
 
