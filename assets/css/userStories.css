@@ -1,9 +1,12 @@
+.container .row {
+  max-width: 1150px;
+}
 .story-container {
   margin: 0px auto;
   position: relative;
 }
 .story-container .story-container2 {
-  margin-top: 0;
+  margin-top: 80px;
 }
 .background-line {
   position: absolute;
@@ -21,6 +24,7 @@
   transform: translateX(-50%);
   height: 80px;
   width: 80px;
+  z-index: 3;
 }
 .inner-circle {
   position: absolute;
@@ -58,7 +62,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 150px;
 }
 
@@ -90,7 +94,12 @@
   max-width: 380px;
   width: 50%;
 }
-
+.story-point-container img.img-bigger {
+  max-width: 500px;
+}
+.story-point-container img.img-smaller {
+  max-width: 300px;
+}
 .story2-point-container img {
   width: 35vw;
 
@@ -188,7 +197,7 @@
 }
 
 .circle2{
-top: 7vw;
+  top: 0;
 }
 
 .circle3 {
@@ -196,12 +205,12 @@ top: 0vw;
 }
 
 .circle4 {
-  top: -1.4vw;
+  top: 0vw;
 
 }
 
 .circle5{
-  top: 1vw;
+  top: 0vw;
 }
 
 .story2-container2 {
@@ -298,7 +307,11 @@ top: 0vw;
   }
   .story-point-container img {
     width: 80%;
-    margin-top: 40px;
+    margin: 30px auto 0;
+    object-fit: contain;
+  }
+  .iphone-01 {
+
   }
 
 }

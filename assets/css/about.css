@@ -104,7 +104,7 @@
     position: relative;
     width: 80%;
     float: right;
-    margin-top: -90px;
+    margin-top: -40px;
   }
   .about-section div > p {
     margin: 10px 0 0;
@@ -151,13 +151,33 @@
 }
 @media(max-width:576px){
   .about-section div {
-    padding: 25px;
+    padding: 20px;
   }
   .about-section div > p {
-    font-size: 18px;
+    font-size: 16px;
+    margin: 0;
   }
   .about-team-players-text-container p {
     margin-bottom: 20px
+  }
+  .about-text-container img {
+    max-width: 10vw;
+  }
+  .about-section div > img {
+    max-width: 40px;
+    display: none;
+  }
+  .about-section div {
+    margin-top: -10px;
+  }
+  .about-section h1 {
+
+  }
+  .about-section img {
+    width: 100%;
+  }
+  .about-team-players-text-container h3 {
+    margin-top: 20px;
   }
 
 }
