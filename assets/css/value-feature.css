@@ -1,3 +1,6 @@
+.container P {
+	font-size: 1.2vw;
+}
 .acquire-header {
 	position: relative;
 	background-image: url("/assets/img/features/featuresHeader.png");
@@ -54,7 +57,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	width: 80%;
+	width: 85%;
 	align-self: center;
 	margin-top: 50px;
 }
@@ -73,6 +76,7 @@
 .text-container h4{
 	color: #2C4499;
 	font-weight: 700;
+	font-size:2vw;
 }
 
 .text-container p {
@@ -105,8 +109,9 @@
 	background: #FFFFFF;
 	box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
 	border-radius: 10px;
-	padding:  3.5vw;
-	box-sizing: border-box;
+	padding: 40px 40px 50px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .feature-preview-card-header {
 	display: flex;
@@ -124,6 +129,9 @@
 }
 
 @media(max-width: 1200px){
+	.container p {
+		font-size: 16px;
+	}
 	.acquire-header .retain-header .grow-header {
 		height: 30vh;
 	}
@@ -131,6 +139,13 @@
 		width: 50vw;
 		top:80%;
 	}
+	.features {
+		margin-top: 10vw;
+	}
+	.text-container h4 {
+		font-size: 24px;
+	}
+	
 }
 
 @media(max-width:992px){
@@ -138,9 +153,22 @@
 		top:70%;
 	}
 	.features {
-		margin-top: 20vw;
+		margin-top: 15vw;
+	}
+	.feature-row img{
+		width: 45vw;
 	}
 
+	.text-container img {
+		width: 5vw;
+	}
+
+}
+
+@media(max-width:768px){
+	.value-feature-intro {
+		top: 80%;
+	}
 }
 
 @media(max-width: 576px){
@@ -148,8 +176,16 @@
 		width: 70vw;
 		padding: 3vw 3vw 0px 5vw;
 		right:5%;
-		top: 70%;
+		top: 80%;
 	}
+	.value-feature-intro p {
+		font-size: 14px;
+	}
+
+	.features {
+		margin-top: 25vw;
+	}
+	
 	.feature-header img {
 		width: 10vw;
 		margin-right: 15px;
@@ -161,7 +197,8 @@
 	.feature-row {
 		display: flex;
 		flex-direction: column;
-		margin-top: 50px;
+		margin-top: 20vw;
+		width: 90%;
 	}
 	.feature-row img {
 		order: 2;
@@ -177,7 +214,6 @@
 		order: 1;
 		max-width: 10vw;
 		margin-right:10px;
-		
 	}
 	.headLine-container h4 {
 		order:2;
@@ -189,19 +225,24 @@
 	}	
 
 	.text-container p {
-		align-self: center;
 		margin: 10px 0px 15px 10px;
-	
 	}
 	.other-feature-section {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
 		margin-top: 80px;
+		width: 85%;
+	}
+	.other-feature-header {
+		top: -10vw;
+	}
+	.other-feature-header h5 {
+		font-size: 11vw;
 
 	}
 	.feature-preview-card {
-		width:90%;
+		width:100%;
 		padding:  3.5vw 3.5vw 6vw 3.5vw ;
 		margin-bottom: 30px;
 	}
@@ -212,11 +253,14 @@
 }
 
 @media(max-width: 340px){
+	.retain-header p .grow-header p .acquire-header p {
+		font-size: 14px;
+	}
 	.value-feature-intro {
 		width: 90%;
 	}
 	.features {
-		margin-top:35vw;
+		margin-top:25vw;
 	}
 	.headLine-container h4 {
 		font-size: 1.3rem;
