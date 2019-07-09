@@ -34,12 +34,13 @@
   bottom:0px;
 }
 
-@media(max-width:576px){
+@media(max-width:340px){
   .page-container h1 {
     font-size: 30px;
   }
   .contact-form-container {
     width: 90%;
+  
     padding: 20px 0px 0px 30px;;
   }
   .white-box-contact-form{
@@ -47,5 +48,3 @@
     height: 100px;
   }
 }
-
-
