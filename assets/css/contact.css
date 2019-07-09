@@ -34,3 +34,18 @@
   bottom:0px;
 }
 
+@media(max-width:576px){
+  .page-container h1 {
+    font-size: 30px;
+  }
+  .contact-form-container {
+    width: 90%;
+    padding: 20px 0px 0px 30px;;
+  }
+  .white-box-contact-form{
+    width: 250px;
+    height: 100px;
+  }
+}
+
+
