@@ -1,3 +1,6 @@
+.container P {
+	font-size: 1.2vw;
+}
 .acquire-header {
 	position: relative;
 	background-image: url("/assets/img/features/featuresHeader.png");
@@ -73,6 +76,7 @@
 .text-container h4{
 	color: #2C4499;
 	font-weight: 700;
+	font-size:2vw;
 }
 
 .text-container p {
@@ -125,6 +129,9 @@
 }
 
 @media(max-width: 1200px){
+	.container p {
+		font-size: 16px;
+	}
 	.acquire-header .retain-header .grow-header {
 		height: 30vh;
 	}
@@ -134,6 +141,9 @@
 	}
 	.features {
 		margin-top: 10vw;
+	}
+	.text-container h4 {
+		font-size: 24px;
 	}
 	
 }
@@ -152,7 +162,7 @@
 	.text-container img {
 		width: 5vw;
 	}
-	
+
 }
 
 @media(max-width:768px){
