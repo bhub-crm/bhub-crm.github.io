@@ -277,7 +277,10 @@ top: 0vw;
   }
   .intro-img {
     width: 80%;
-    margin: 0 auto -30px;
+    margin: 0 auto 20px;
+  }
+  .m-30{
+    margin-top: -30px;
   }
   .story-intro div {
     width: 100%;
