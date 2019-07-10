@@ -280,7 +280,7 @@ top: 0vw;
     margin: 0 auto 20px;
   }
   .m-30{
-    margin-top: -30px;
+    margin-top: 0 auto -30px;
   }
   .story-intro div {
     width: 100%;
