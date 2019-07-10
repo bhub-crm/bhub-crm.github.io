@@ -62,6 +62,11 @@ p {
   width: 100%;
   background: #fff;
   z-index: 10;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
 }
 .menu .row{
   display: flex;
@@ -88,7 +93,7 @@ nav ul li a{
   padding: 15px 40px 15px 0;
   cursor: pointer;
 }
-nav ul li:last-child{
+nav ul li:last-child a{
   padding-right: 0;
 }
 nav .fa-sort-down {
@@ -104,7 +109,8 @@ nav .fa-sort-down {
   box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
   margin-top: 10px;
   border-radius: 10px;
-  max-width: 330px;
+  max-width: 300px;
+  width: 100%;
 }
 .submenu li a{
   display: flex;
@@ -118,6 +124,29 @@ nav .fa-sort-down {
 }
 .submenu li:last-child  a{
   border-bottom: 0px;
+}
+nav li a > span {
+  position: relative;
+}
+nav li a > span::before {
+  content: '';
+  width: 0%;
+  height: 5px;
+  background-color: #fff;
+  top: -12px;
+  position: absolute;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+nav li:hover a > span::before{
+  width: 100%;
+  background-color: #1FBF7A;
+}
+nav li:hover a > span{
+  color: #2B459C;
 }
 nav li:hover ul.submenu{
   display: block;
@@ -142,8 +171,12 @@ nav li:hover ul.submenu{
   display: inline-block;
   opacity: 0.7;
 }
-.menu .scroll-menu{
+.scroll-menu{
+  box-shadow: 0 8px 24px rgba(44, 68, 153, 0.13);
+}
+.scroll-menu > .row {
   padding: 15px 0;
+
 }
 .scroll-menu .nav-logo {
   max-width: 135px;
@@ -184,7 +217,14 @@ nav li:hover ul.submenu{
   font-weight: 700;
   padding: 12px 40px;
   display: inline-block;
-
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.btn-02:hover {
+  background: #1FBF7A;
 }
 .btn-03 {
   background: #1FBF7A;
@@ -194,6 +234,14 @@ nav li:hover ul.submenu{
   font-weight: 700;
   padding: 12px 40px;
   display: inline-block;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.btn-03:hover {
+    background: #149e63;
 }
 /*************** burger ***********************/
 .burger {
@@ -241,7 +289,7 @@ nav li:hover ul.submenu{
 }
 @media(max-width:1200px){
   nav ul li a {
-    padding: 15px 20px 15px 0;
+    padding: 15px 25px 15px 0;
     display: flex;
   }
   h3 {
@@ -301,6 +349,10 @@ nav li:hover ul.submenu{
     max-width: 100%;
     margin-bottom: 20px;
 
+  }
+  nav li a > span::before {
+    bottom: -6px;
+    top: inherit;
   }
   nav li:hover ul.submenu {
     display: none;

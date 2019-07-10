@@ -105,7 +105,7 @@
 }
 
 .feature-preview-card {
-	width: 30vw;
+	width: 33vw;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
 	border-radius: 10px;
@@ -145,7 +145,7 @@
 	.text-container h4 {
 		font-size: 24px;
 	}
-	
+
 }
 
 @media(max-width:992px){
@@ -185,7 +185,7 @@
 	.features {
 		margin-top: 25vw;
 	}
-	
+
 	.feature-header img {
 		width: 10vw;
 		margin-right: 15px;
@@ -222,7 +222,7 @@
 		order:1;
 		width: 100%;
 		margin-left: 0px;
-	}	
+	}
 
 	.text-container p {
 		margin: 10px 0px 15px 10px;
