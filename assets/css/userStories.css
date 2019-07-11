@@ -319,7 +319,26 @@ top: 0vw;
 
 }
 @media(max-width:576px){
-
+  .background-circle-container {
+    width: 50px;
+    height: 50px;
+    left: -8.5%;
+    top: -25px;
+  }
+  .circle1 {
+    left: 2.5%!important;
+  }
+  .outer-circle{
+    background-color: rgba(44, 68, 153, 0);
+  }
+  .middle-circle {
+    height: 30px;
+    width: 30px;
+  }
+  .background-line {
+    top: 180px!important;
+    left: 2.5%;
+  }
 }
 @media(max-width:380px){
 
