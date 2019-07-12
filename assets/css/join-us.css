@@ -1,0 +1,159 @@
+.text-container {
+  position: absolute;
+  left: 15%;
+  bottom: -10%;
+  width: 35%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+  border-radius: 10px;
+  padding: 30px;
+}
+.text-container p {
+  color: #00C275;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0 0;
+}
+.text-container img{
+  max-width: 60px;
+}
+.role-list {
+  margin-top: 150px;
+}
+.role-list h2 {
+  font-size: 40px;
+  color: #00C275;
+  margin-bottom: 30px;
+}
+.role-list .role{
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+  border-radius: 10px;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+.role .thumbnail {
+  margin-right: 40px;
+  width: 20%;
+}
+.role .txt {
+  width: 80%;
+}
+.role .txt h4 {
+  font-size: 28px;
+  color: #2B459C;
+}
+.role .txt p {
+  margin-bottom: 30px;
+}
+
+.contact-us {
+  width: 100%;
+  background: #29429E;
+  text-align: center;
+  padding: 100px 0;
+  margin-top: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-us::before {
+  content: '';
+  width: 600px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 50%;
+  position: absolute;
+  right: -40px;
+  top: -70px;
+}
+.contact-us h3 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-container {
+  margin-top: 0!important;
+}
+@media(max-width:1200px){
+  .role-list .role{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(44, 68, 153, 0.15);
+    border-radius: 10px;
+    align-items: flex-start;
+    padding: 30px;
+  }
+  .role .txt h4 {
+    font-size: 24px;
+  }
+  .text-container {
+    bottom: -25%;
+    width: 55%;
+  }
+}
+@media(max-width:992px){
+  .text-container {
+    width: 65%;
+  }
+}
+@media(max-width:768px){
+  .text-container {
+    position: relative;
+    bottom: inherit;
+    top: -70px;
+  }
+  .role-list {
+    margin-top: 0px;
+  }
+  .role .thumbnail {
+    display: none;
+  }
+  .role .txt {
+    width: 1000%;
+    max-width: 500px;
+  }
+  .contact-us::before {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media(max-width:576px){
+  .text-container p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .text-container {
+    padding: 20px;
+    top: -30px;
+    width: 90%;
+    left: inherit;
+  }
+  .text-container img {
+    display: none;
+  }
+  .role-list h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .role-list .role {
+    margin-bottom: 20px;
+  }
+  .role .txt h4 {
+    font-size: 20px;
+  }
+  .contact-us {
+    padding: 40px 40px;
+  }
+  .contact-us h3 {
+    font-size: 30px;
+  }
+  .contact-us::before {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media(max-width:380px){
+
+}

@@ -222,6 +222,8 @@ nav li:hover ul.submenu{
   -ms-transition: 0.25s ease-out;
   -o-transition: 0.25s ease-out;
   transition: 0.25s ease-out;
+  position: relative;
+  z-index: 1;
 }
 .btn-02:hover {
   background: #1FBF7A;
