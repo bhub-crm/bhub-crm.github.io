@@ -112,6 +112,9 @@ nav .fa-sort-down {
   max-width: 300px;
   width: 100%;
 }
+.submenu-2{
+  max-width: 380px;
+}
 .submenu li a{
   display: flex;
   align-items: center;
@@ -153,7 +156,7 @@ nav li:hover ul.submenu{
 }
 .submenu p {
   margin: 8px;
-  width: calc(100% - 70px);
+  /* width: calc(100% - 70px); */
 }
 .submenu .nav-icon {
   background-color: rgba(0, 194, 117, 0.1);
