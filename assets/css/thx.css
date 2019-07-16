@@ -3,22 +3,45 @@
 .content-container {
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 85%;
   margin: 50px auto;
   align-items: center
 }
 
 .content-container h1 {
-  font-size: 3rem;
+  font-size: 4vw;
 }
 .content-container img {
   width: 40%;
   margin-left: 10%;
 }
 .content-container div {
-  width: 30%;
+  width: 40%;
 }
 
-.contact-thx-header {
-  width: 500px;
+@media(max-width:768px){
+
+.content-container {
+  width: 95%;
+  }
+  .content-container img {
+    margin-left: 10px;
+  }
+  .content-container h1 {
+    font-size: 5vw;
+  }
+  .content-container p {
+    font-size: 3vw;
+  }
 }
+
+@media(max-width:340px){
+  
+  .content-container h1{
+    font-size: 5vw
+  }
+  .content-container p {
+    font-size: 3vw;
+  }
+}
+
