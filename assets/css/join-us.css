@@ -12,7 +12,7 @@
   color: #00C275;
   font-size: 20px;
   font-weight: 700;
-  
+
 }
 .text-container img{
   max-width: 60px;
@@ -35,8 +35,8 @@
   margin-bottom: 40px;
 }
 .role .thumbnail {
-  margin-right: 40px;
-  width: 20%;
+  margin-right: 50px;
+  width: 15%;
 }
 .role .txt {
   width: 80%;
@@ -48,7 +48,9 @@
 .role .txt p {
   margin-bottom: 30px;
 }
-
+.role .txt .btn-03 {
+  margin-right: 15px;
+}
 .contact-us {
   width: 100%;
   background: #29429E;

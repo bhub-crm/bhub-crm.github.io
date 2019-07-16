@@ -248,6 +248,24 @@ nav li:hover ul.submenu{
 .btn-03:hover {
     background: #149e63;
 }
+.btn-04 {
+  background: #fff;
+  border: 2px solid #2C4499;
+  border-radius: 5px;
+  color: #2C4499;
+  font-weight: 700;
+  padding: 12px 40px;
+  display: inline-block;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.btn-04:hover {
+    background: #2C4499;
+    color: #fff;
+}
 /*************** burger ***********************/
 .burger {
   height: 18px;
