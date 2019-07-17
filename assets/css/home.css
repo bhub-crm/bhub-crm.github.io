@@ -206,6 +206,7 @@ span.name {
   }
   .story-2 img {
     align-self: center;
+    object-fit: contain;
   }
   /* USER STORIES */
   .intro-user-stories .txt {
