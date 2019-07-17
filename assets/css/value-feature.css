@@ -95,13 +95,13 @@
 }
 .other-feature-header {
 	position: absolute;
-	top: -8vw;
+	top: -7vw;
 	z-index: -1;
 }
 
 .other-feature-header h5{
 	color: rgba(44,68,153,.09);
-	font-size: 9vw;
+	font-size: 8vw;
 }
 
 .feature-preview-card {
@@ -235,10 +235,10 @@
 		width: 85%;
 	}
 	.other-feature-header {
-		top: -10vw;
+		top: -9vw;
 	}
 	.other-feature-header h5 {
-		font-size: 11vw;
+		font-size: 9vw;
 
 	}
 	.feature-preview-card {
