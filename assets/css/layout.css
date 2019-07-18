@@ -155,7 +155,7 @@ nav li:hover ul.submenu{
   display: block;
 }
 
-.active::before {
+/* .active::before {
   content: '';
   width: 5%;
   height: 5px;
@@ -163,9 +163,9 @@ nav li:hover ul.submenu{
   left: -1px;
   position: absolute;
   background-color: #1FBF7A;
-}
+} */
 
-.active span {
+.active > span {
   color: #2B459C;
 }
 .submenu p {
