@@ -1,0 +1,36 @@
+.row h1{
+  position: fixed;
+  color: rgba(44,68,153,0.3);
+  font-size: 4vw;
+  z-index: -1;
+  top:45%;
+  left:50%;
+  transform: translateX(-50%);
+}
+.row h3 {
+  margin: 25px 0px 10px;
+  color: #00C275;
+  font-size: 16px;
+
+}
+.row p {
+  margin-top: 20px;
+}
+.row h4 {
+  font-size: 16px;
+  margin: 50px 0px 0px;
+}
+
+@media(max-width: 1200px){
+  .row h1 {
+    font-size: 6vw;
+  }
+}
+
+@media(max-width: 768px){
+  .row h1 {
+    font-size: 9vw;
+    width:70%;
+  }
+}
+
