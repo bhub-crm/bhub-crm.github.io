@@ -12,7 +12,7 @@
 }
 
 .about-section img {
-  width: 80%;
+  width: 100%;
 }
 
 .about-section div {
@@ -35,7 +35,7 @@
   color: #00C275;
   font-size: 20px;
   font-weight: 700;
-    
+
 }
 
 .about-team-players {

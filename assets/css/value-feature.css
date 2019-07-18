@@ -3,22 +3,24 @@
 }
 .acquire-header {
 	position: relative;
-	background-image: url("/assets/img/features/featuresHeader.png");
+	background-image: url("../img/features/acquire/acquire-banner.jpg");
 	width: 100%;
 	height: 50vh;
-}
-
-.grow-header {
-	position: relative;
-	background-image: url("/assets/img/features/featuresHeader.png");
-	width: 100%;
-	height: 50vh;
+	background-size: cover;
 }
 .retain-header {
 	position: relative;
-	background-image: url("/assets/img/features/featuresHeader.png");
+	background-image: url("../img/features/retain/retain-banner.jpg");
 	width: 100%;
 	height: 50vh;
+	background-size: cover;
+}
+.grow-header {
+	position: relative;
+	background-image: url("../img/features/grow/grow-banner.jpg");
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
 }
 
 .value-feature-intro {

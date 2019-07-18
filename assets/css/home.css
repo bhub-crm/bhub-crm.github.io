@@ -90,7 +90,7 @@
 .story-2 div:first-child {
     order: 2;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 .story-2 div img {
 
@@ -116,6 +116,10 @@ span.name {
     font-weight: 700;
     display: block;
     color: #29429E;
+    text-transform: uppercase;
+}
+span.role {
+  color: #1FBF7A;
 }
 .testimonials .item {
     max-width: 600px;
