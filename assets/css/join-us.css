@@ -42,8 +42,9 @@
   width: 80%;
 }
 .role .txt h4 {
-  font-size: 28px;
+  font-size: 24px;
   color: #2B459C;
+  font-weight: 400;
 }
 .role .txt p {
   margin-bottom: 30px;

@@ -3,6 +3,9 @@ $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true,
         autoplay:true,
+        autoplayHoverPause: true,
+        smartSpeed: 600,
+        autoplayTimeout: 7000,
         nav:false,
         dots:true,
         responsive:{
